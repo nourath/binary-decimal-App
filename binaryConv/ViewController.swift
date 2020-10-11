@@ -128,16 +128,21 @@ class ViewController: UIViewController {
     if let decimalNumber = Int(globalBinary, radix: 2) {
         print(decimalNumber)
         displayLabel.text = String(decimalNumber)
-    }
+
     // globalBinary convert to decimal then send value as a parameter for next func
     // if func returns true { change bg color } else { }
     // return if binary after switch is euqal to user's decimal
     //displayLabel.backgroundColor = UIColor.green
-    
+//
 //        if decimalNumberTextField.text == decimalNumber {
 //            displayLabel.backgroundColor = UIColor.green
 //        }
-
+//
+        }
     }
-
+    @IBAction func resetButton(_ sender: UIButton) {
+    
+       // sender.resetToOrigin
+    }
+    
 }
